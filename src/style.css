@@ -57,6 +57,7 @@ header a {
 
 main {
   background-color: white;
+  padding: 50px 0;
 }
 
 main h2 {
@@ -74,9 +75,26 @@ main h3 {
   margin: 0;
 }
 
+main h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+main h5 {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
 main p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
+  color: rgba(20, 20, 20, 0.8);
+}
+
+section {
+  margin: 0 auto;
+  padding: 50px 80px;
 }
 
 .grid {
@@ -89,6 +107,10 @@ main p {
 }
 
 .columns-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.columns-3-firstsmaller {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
@@ -97,9 +119,24 @@ main p {
   max-width: 100%;
 }
 
-section {
-  margin: 0 auto;
-  padding: 100px 80px;
+.experiences h2 {
+  text-align: center;
+}
+
+.experiences h3 {
+  text-align: center;
+}
+
+.experiences p {
+  margin: 0;
+}
+
+.experiences .card {
+  margin-top: 30px;
+}
+
+.experiences .card-body {
+  padding: 0 30px;
 }
 
 footer {
@@ -187,7 +224,15 @@ footer .info-links {
     grid-template-columns: 1fr;
   }
 
-  .img-responsive {
+  .columns-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .card-body {
+    margin-bottom: 30px;
+  }
+
+  .milo-kathi {
     display: none;
   }
 }
