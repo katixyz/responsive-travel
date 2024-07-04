@@ -116,7 +116,7 @@ section {
 
 .img-responsive {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 .experiences h2 {
@@ -137,6 +137,19 @@ section {
 
 .experiences .card-body {
   padding: 0 30px;
+}
+
+.card-header.grid {
+  grid-gap: 0;
+}
+
+.card-header img {
+  aspect-ratio: 1 / 1;
+}
+
+.card-header .embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
 }
 
 footer {
@@ -226,6 +239,14 @@ footer .info-links {
 
   .columns-3 {
     grid-template-columns: 1fr;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .card-header .embed {
+    aspect-ratio: 16 / 9;
   }
 
   .card-body {
