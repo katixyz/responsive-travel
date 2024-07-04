@@ -97,6 +97,20 @@ section {
   padding: 50px 80px;
 }
 
+table {
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(20, 20, 20, 0.8);
+  border: 1px solid lightgrey;
+  width: 100%;
+  margin: 5px 0;
+}
+
+td {
+  margin: 0 5px;
+  border: 1px solid lightgrey;
+}
+
 .grid {
   display: grid;
   grid-gap: 32px;
@@ -145,6 +159,7 @@ section {
 
 .card-header img {
   aspect-ratio: 1 / 1;
+  filter: brightness(115%) contrast(74%);
 }
 
 .card-header .embed {
