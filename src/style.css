@@ -223,8 +223,8 @@ footer .info-links {
     font-size: 12px;
   }
 
-  section {
-    padding: 60px 80px;
+  main {
+    padding: 25px 0;
   }
 
   main h2 {
@@ -233,6 +233,10 @@ footer .info-links {
 
   main h3 {
     font-size: 18px;
+  }
+
+  section {
+    padding: 25px 80px;
   }
 
   footer h3 {
