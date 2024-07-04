@@ -152,6 +152,21 @@ section {
   aspect-ratio: 1 / 1;
 }
 
+.impressions h2 {
+  text-align: center;
+}
+
+.impressions h3 {
+  text-align: center;
+}
+
+.gallery {
+  margin: 32px 0;
+}
+.gallery img {
+  aspect-ratio: 1 / 1;
+}
+
 footer {
   background: linear-gradient(rgba(28, 23, 17, 0.9), rgba(28, 23, 17, 0.8)),
     url("../images/forest.jpg");
@@ -210,6 +225,14 @@ footer .info-links {
 
   section {
     padding: 60px 80px;
+  }
+
+  main h2 {
+    font-size: 12px;
+  }
+
+  main h3 {
+    font-size: 18px;
   }
 
   footer h3 {
